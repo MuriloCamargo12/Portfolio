@@ -2,8 +2,7 @@
 import { useReveal } from "@/hooks/scroll";
 import { IconArrowDown } from "@tabler/icons-react";
 import Image from "next/image";
-import { FaLinkedin } from "react-icons/fa6";
-import { PiReadCvLogoFill } from "react-icons/pi";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 export default function Inicio() {
     const { ref, visible } = useReveal()
@@ -33,9 +32,9 @@ export default function Inicio() {
                                 <FaLinkedin/>
                                 Linkedin
                             </a>
-                            <a href="/curriculo.pdf" download className="flex gap-2 items-center justify-center cursor-pointer bg-blue-600 hover:bg-blue-500 w-28 py-2 px-3 rounded-2xl transition duration-300 transform hover:-translate-y-1">
-                                <PiReadCvLogoFill/>
-                                CV
+                            <a href="https://github.com/MuriloCamargo12" target="_blank" className="flex gap-2 items-center justify-center cursor-pointer bg-blue-600 hover:bg-blue-500 w-28 py-2 px-3 rounded-2xl transition duration-300 transform hover:-translate-y-1">
+                                <FaGithub/>
+                                GitHub
                             </a>
                         </div>
                     </div>
