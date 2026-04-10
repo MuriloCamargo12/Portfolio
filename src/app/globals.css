@@ -3,8 +3,8 @@
 @import "tailwindcss-animated";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #020617;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -16,14 +16,6 @@
 
 @theme {
   --color-background: #020617
-}
-
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
